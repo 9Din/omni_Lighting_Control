@@ -1,6 +1,6 @@
 # Omni Vision Tuner 
 
-This plugin provides Omniverse users with a set of lighting and material management tools, mainly used for lighting management, sun path simulation, and material management in scenes, especially suitable for users who need to finely control lighting and optimize scene resources.
+**This plugin provides Omniverse users with a set of lighting and material management tools, mainly used for lighting management, sun path simulation, and material management in scenes, especially suitable for users who need to finely control lighting and optimize scene resources.**
 
 Architectural Visualization: Accurate Sunlight Analysis and Lighting Adjustment
 Product rendering: material optimization and lighting layout
@@ -8,7 +8,7 @@ Scenario optimization: Clean up unused resources and improve performance
 Lighting Design: Complex Multi level Lighting System Management
 
 ```LightManager
-        '''
+        
         # Directory Structure
         /World/lights/                  # Root Path
             ├── LivingRoom/             # Room (Secondary Catalog)
@@ -18,7 +18,7 @@ Lighting Design: Complex Multi level Lighting System Management
             │   └── AccentLights/
             └── Bedroom/
                 └── BedsideLights/
-        '''
+        
 ```
 Core Capabilities
 - Precision Color Science
@@ -32,3 +32,20 @@ Through an intuitive unified panel, it enables coordinated switching, grouping, 
 
 - Non-Destructive Real-Time Preview
 All adjustments are instantly reflected in Omniverse's real-time viewport, achieving zero latency between creative decisions and final results.
+
+## Quick Start
+
+### Requirements
+- Requires Omniverse Kit >= 108
+
+### Test in Omniverse
+1.Window > Extensions
+2.☰ > Settings
+3.✚ Add _install\windows-x86_64\release folder to the Extension Search Paths
+4.The user extension should appear on the left
+5.Autoload needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
+
+```
+        git clone https://github.com/9Din/omni_Lighting_Control.git
+```
+
