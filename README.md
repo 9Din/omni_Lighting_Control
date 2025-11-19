@@ -14,12 +14,14 @@ Lighting Design: Complex Multi level Lighting System Management
         /World/
             ├── lights/                         # Root Path
                 ├── LivingRoom/                 # Room (Secondary Catalog)
-                │   ├── MainLights/             # Lighting Group (Level 3 Catalog)  
+                │   ├── CeilingLights/          # Lighting Group (Level 3 Catalog)  
                 │   │   │   ├── SpotLight1      # Specific Lighting
                 │   │   │   └── SpotLight2
-                │   │   └── AccentLights/
+                │   └── AccentLights/
+                │           └── CylinderLight
                 └── Bedroom/
                     └── BedsideLights/
+                            └── DiskLight
                 
 ```
 Core Capabilities
