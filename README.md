@@ -10,8 +10,10 @@ Lighting Design: Complex Multi level Lighting System Management
 ```LightManager
         
         # Directory Structure
-        /World/lights/                  # Root Path
-            ├── LivingRoom/             # Room (Secondary Catalog)
+
+        /World/
+            ├── lights/                 # Root Path
+            │   ├── LivingRoom/         # Room (Secondary Catalog)
             │   ├── MainLights/         # Lighting Group (Level 3 Catalog)  
             │   │   ├── SpotLight1      # Specific Lighting
             │   │   └── SpotLight2
