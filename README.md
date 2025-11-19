@@ -39,11 +39,12 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 - Requires Omniverse Kit >= 108
 
 ### Test in Omniverse
-1.Window > Extensions
-2.☰ > Settings
-3.✚ Add _install\windows-x86_64\release folder to the Extension Search Paths
-4.The user extension should appear on the left
-5.Autoload needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
+
+1. `Window` > `Extensions`
+2. ☰ > Settings
+3. ✚ Add `_install\windows-x86_64\release` folder to the Extension Search Paths
+4. The user extension should appear on the left
+5. `Autoload` needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
 
 ```
         git clone https://github.com/9Din/omni_Lighting_Control.git
