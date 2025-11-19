@@ -40,7 +40,7 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 
 ### Test in Omniverse
 
-1. `Window` > `Extensions`
+1. `Developer` > `Extensions` or `Window` > `Extensions`
 2. ☰ > Settings
 3. ✚ Add `_install\windows-x86_64\release` folder to the Extension Search Paths
 4. The user extension should appear on the left
