@@ -18,8 +18,8 @@ Lighting Design: Complex Multi level Lighting System Management
             │   │   ├── SpotLight1      # Specific Lighting
             │   │   └── SpotLight2
             │   └── AccentLights/
-            └── Bedroom/
-                └── BedsideLights/
+            └────── Bedroom/
+                    └── BedsideLights/
         
 ```
 Core Capabilities
