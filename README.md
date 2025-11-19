@@ -12,15 +12,15 @@ Lighting Design: Complex Multi level Lighting System Management
         # Directory Structure
 
         /World/
-            ├── lights/                 # Root Path
-            │   ├── LivingRoom/         # Room (Secondary Catalog)
-            │   ├── MainLights/         # Lighting Group (Level 3 Catalog)  
-            │   │   ├── SpotLight1      # Specific Lighting
-            │   │   └── SpotLight2
-            │   └── AccentLights/
-            └────── Bedroom/
-                    └── BedsideLights/
-        
+            ├── lights/                         # Root Path
+                ├── LivingRoom/                 # Room (Secondary Catalog)
+                    ├── MainLights/             # Lighting Group (Level 3 Catalog)  
+                    │   │   ├── SpotLight1      # Specific Lighting
+                    │   │   └── SpotLight2
+                    │   └── AccentLights/
+                    └── Bedroom/
+                        └── BedsideLights/
+                
 ```
 Core Capabilities
 - Precision Color Science
