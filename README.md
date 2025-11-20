@@ -1,6 +1,8 @@
 
 
-# Overview - Omni Vision Tune
+# Overview 
+
+***Omni Vision Tune***
 
 > This plugin provides Omniverse users with a set of lighting and material management tools, mainly used for lighting management, sun path simulation, and material management in scenes, especially suitable for users who need to finely control lighting and optimize scene resources.
 
@@ -9,6 +11,7 @@
 - Scenario optimization: Clean up unused resources and improve performance
 - Lighting Design: Complex Multi level Lighting System Management
 
+![showcase](readme_media/welcome.png)
 <br>
 
 ## Quick Start
@@ -92,9 +95,6 @@ Sunlight requirement:
 
 
 <br>
-
-
-
 <hr>
 
 <a name="usage"></a>
@@ -123,7 +123,7 @@ Manual installation:
 5. ✚ Add `\omni_Lighting_Control\exts` folder to the Extension Search Paths
 6. The user extension should appear on the left
 7. `Autoload` needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
-
+<br>
 <hr>
 
 <a name="tips"></a>
@@ -147,7 +147,7 @@ Manual installation:
 - After adjusting to the desired effect, click on "Record Defaults"
 - Afterwards, it can be restored at any time through 'Reset to Defaults'
 <br>
-* *Color control (disabled)
+*Color control (disabled)
 
 <a name="tips-Sun"></a>
 ### ☀️ Sun Path Usage Process
@@ -162,7 +162,7 @@ Manual installation:
 - Adjust the intensity, color temperature, and other attributes of sunlight according to demand
 - Use Show/Hide to control the visibility of the sun
 <br>
-* *Color temperature color control (disabled)
+*Color temperature color control (disabled)
 
 <a name="tips-Material"></a>
 ### 🧱 Material cleaning process
@@ -179,6 +179,8 @@ Manual installation:
 4. Error Recovery
 - When accidentally deleted, the 'undo last' operation can be used to undo it
 
+<br>
+<hr>
 <a name="precautions"></a>
 ### ⚠️ Precautions
 
