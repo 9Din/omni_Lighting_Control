@@ -1,6 +1,8 @@
 # Omni Vision Tuner 
 
-**This plugin provides Omniverse users with a set of lighting and material management tools, mainly used for lighting management, sun path simulation, and material management in scenes, especially suitable for users who need to finely control lighting and optimize scene resources.**
+> This plugin provides Omniverse users with a set of lighting and material management tools, mainly used for lighting management, sun path simulation, and material management in scenes, especially suitable for users who need to finely control lighting and optimize scene resources.**
+
+<br>
 
 Architectural Visualization: Accurate Sunlight Analysis and Lighting Adjustment
 Product rendering: material optimization and lighting layout
@@ -39,18 +41,35 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 
 ## Quick Start
 
+**Target applications:** NVIDIA Omniverse app
+
+**Supported OS:** Windows and Linux
+
+**Changelog:** [CHANGELOG.md](exts/omni.LightingControl/docs/CHANGELOG.md)
+
+**Table of Contents:**
+
 ### Requirements
 - Requires Omniverse Kit >= 108
 
-### Test in Omniverse
+### Adding This Extension
+To add this extension to your Omniverse app:
 
-1. `Developer` > `Extensions` or `Window` > `Extensions`
-2. ☰ > Settings
-3. ✚ Add `_install\windows-x86_64\release` folder to the Extension Search Paths
-4. The user extension should appear on the left
-5. `Autoload` needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
+        1. `Developer` > `Extensions` or `Window` > `Extensions`
+        2. ☰ > Settings
+        3. ✚ Add `git:https://github.com/9Din/omni_Lighting_Control/tree/main/exts` folder to the Extension Search Paths
+        4. The user extension should appear on the left
+        5. `Autoload` needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
+        
+Manual installation:
+
+        1.Download Zip  ` git clone https://github.com/9Din/omni_Lighting_Control.git `
+        2.Extract and place into a directory of your choice
+        3.
+
 
 ```
         git clone https://github.com/9Din/omni_Lighting_Control.git
 ```
 
+`\omni_Lighting_Control\exts`
