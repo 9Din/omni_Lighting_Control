@@ -1,34 +1,47 @@
 
-# Overview
 
-## Omni Vision Tuner 
+# Omni Vision Tune
 
 > This plugin provides Omniverse users with a set of lighting and material management tools, mainly used for lighting management, sun path simulation, and material management in scenes, especially suitable for users who need to finely control lighting and optimize scene resources.
-
-<br>
 
 - Architectural Visualization: Accurate Sunlight Analysis and Lighting Adjustment
 - Product rendering: material optimization and lighting layout
 - Scenario optimization: Clean up unused resources and improve performance
 - Lighting Design: Complex Multi level Lighting System Management
 
-```
-        LightManager   
-        # Directory Structure
+<br>
 
-        /World/
-            ├── lights/                         # Root Path
-                ├── LivingRoom/                 # Room (Secondary Catalog)
-                │   ├── CeilingLights/          # Lighting Group (Level 3 Catalog)  
-                │   │   │   ├── SpotLight1      # Specific Lighting
-                │   │   │   └── SpotLight2
-                │   └── AccentLights/
-                │           └── CylinderLight
-                └── Bedroom/
-                    └── BedsideLights/
-                            └── DiskLight
-                
-```
+# Overview
+
+## Quick Start
+
+**Target applications:** NVIDIA Omniverse App
+
+**Supported OS:** Windows and Linux
+
+**Changelog:** [CHANGELOG.md](exts/omni.LightingControl/docs/CHANGELOG.md)
+
+**Table of Contents:**
+
+- [User Guide](#guide)
+  - [Preparation](#guide-Preparation)
+- [Extension usage](#usage)
+  - [Dependencies](#usage-Dependencies)
+  - [Adding Extension](#usage-Adding)
+- [Usage Tips](#tips)
+  - [Lighting Management Process](#tips-Light)
+  - [Sun Path Usage Process](#tips-Sun)
+  - [Material cleaning process](#tips-Material)
+- [Usage Tips](#tips)
+- [Usage Tips](#tips)
+- [Usage Tips](#tips)
+
+<br>
+
+![showcase](exts/omni.LightingControl/data/preview.png)
+
+<hr>
+
 Core Capabilities
 - Precision Color Science
 Leveraging industry-standard color temperature curves, it enables seamless transitions from cool moonlight to warm sunset glow, ensuring both authentic color reproduction and pure artistic expression.
@@ -45,7 +58,9 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 <br>
 <hr>
 
+<a name="guide"></a>
 ## 🎯 User Guide
+<a name="#guide-Preparation"></a>
 ### Preparation
 
 **LightManager**
@@ -76,36 +91,22 @@ Light organization structure:
 Sunlight requirement:
 - There must be at least one DistantLight type light in the scene
 
-## Quick Start
 
-**Target applications:** NVIDIA Omniverse App
-
-**Supported OS:** Windows and Linux
-
-**Changelog:** [CHANGELOG.md](exts/omni.LightingControl/docs/CHANGELOG.md)
-
-**Table of Contents:**
-
-
-- [Extension usage](#usage)
-  - [Code autocompletion](#usage-autocompletion)
-  - [Code introspection](#usage-introspection)
-- [Configuring the extension](#config)
-- [Implementation details](#implementation)
 
 <br>
 
-![showcase](exts/omni.LightingControl/data/preview.png)
+
 
 <hr>
 
 <a name="usage"></a>
 ### Extension usage
 
+<a name="usage-Dependencies"></a>
 #### Dependencies
 - Requires Omniverse Kit >= 108
 
-
+<a name="usage-Adding"></a>
 ### Adding This Extension
 To add this extension to your Omniverse app:
 
@@ -127,8 +128,10 @@ Manual installation:
 
 <hr>
 
+<a name="tips"></a>
 ## 🗒️ Usage Tips
 
+<a name="tips-Light"></a>
 ### 💡 Lighting Management Process 
 
 1. Search for lighting structure
@@ -146,6 +149,7 @@ Manual installation:
 - After adjusting to the desired effect, click on "Record Defaults"
 - Afterwards, it can be restored at any time through 'Reset to Defaults'
 
+<a name="tips-Sun"></a>
 ### ☀️ Sun Path Usage Process
 
 1. Select sunlight
@@ -158,6 +162,7 @@ Manual installation:
 - Adjust the intensity, color temperature, and other attributes of sunlight according to demand
 - Use Show/Hide to control the visibility of the sun
 
+<a name="tips-Material"></a>
 ### 🧱 Material cleaning process
 
 1. Scan unused materials
