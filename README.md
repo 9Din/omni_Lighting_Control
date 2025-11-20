@@ -35,9 +35,9 @@
   - [Lighting Management Process](#tips-Light)
   - [Sun Path Usage Process](#tips-Sun)
   - [Material cleaning process](#tips-Material)
+- [Video](#video)
 - [Precautions](#precautions)
-- [Usage Tips](#tips)
-- [Usage Tips](#tips)
+
 
 <br>
 
@@ -182,8 +182,10 @@ Manual installation:
 - When accidentally deleted, the 'undo last' operation can be used to undo it
 
 <br>
+<a name="video"></a> 
 
 ![Sample Video](readme_media/record.mp4)
+
 <hr>
 <a name="precautions"></a>
 ### ⚠️ Precautions
