@@ -1,6 +1,6 @@
 
 
-# Omni Vision Tune
+# Overview - Omni Vision Tune
 
 > This plugin provides Omniverse users with a set of lighting and material management tools, mainly used for lighting management, sun path simulation, and material management in scenes, especially suitable for users who need to finely control lighting and optimize scene resources.
 
@@ -10,8 +10,6 @@
 - Lighting Design: Complex Multi level Lighting System Management
 
 <br>
-
-# Overview
 
 ## Quick Start
 
@@ -32,7 +30,7 @@
   - [Lighting Management Process](#tips-Light)
   - [Sun Path Usage Process](#tips-Sun)
   - [Material cleaning process](#tips-Material)
-- [Usage Tips](#tips)
+- [Precautions](#precautions)
 - [Usage Tips](#tips)
 - [Usage Tips](#tips)
 
@@ -60,7 +58,7 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 
 <a name="guide"></a>
 ## 🎯 User Guide
-<a name="#guide-Preparation"></a>
+<a name="guide-Preparation"></a>
 ### Preparation
 
 **LightManager**
@@ -148,6 +146,8 @@ Manual installation:
 4. Save personal presets
 - After adjusting to the desired effect, click on "Record Defaults"
 - Afterwards, it can be restored at any time through 'Reset to Defaults'
+<br>
+* *Color control (disabled)
 
 <a name="tips-Sun"></a>
 ### ☀️ Sun Path Usage Process
@@ -161,6 +161,8 @@ Manual installation:
 3. Fine tune the sun effect
 - Adjust the intensity, color temperature, and other attributes of sunlight according to demand
 - Use Show/Hide to control the visibility of the sun
+<br>
+* *Color temperature color control (disabled)
 
 <a name="tips-Material"></a>
 ### 🧱 Material cleaning process
@@ -177,4 +179,11 @@ Manual installation:
 4. Error Recovery
 - When accidentally deleted, the 'undo last' operation can be used to undo it
 
+<a name="precautions"></a>
+### ⚠️ Precautions
+
+1. Permission requirement: Some operations require write permission for the scene
+2. Revocation restriction: Revocation of material deletion can only be effective in the current session
+3. Performance considerations: In large scenes, material scanning may take a long time
+4. Backup suggestion: It is recommended to backup important scenarios before batch deletion operations
 
