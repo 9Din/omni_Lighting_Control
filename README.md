@@ -41,7 +41,7 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 
 ## Quick Start
 
-**Target applications:** NVIDIA Omniverse app
+**Target applications:** NVIDIA Omniverse App
 
 **Supported OS:** Windows and Linux
 
@@ -49,8 +49,7 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 
 **Table of Contents:**
 
-- [Extension setup](#setup)
-  - [Troubleshooting](#setup-troubleshooting)
+
 - [Extension usage](#usage)
   - [Code autocompletion](#usage-autocompletion)
   - [Code introspection](#usage-introspection)
@@ -63,8 +62,12 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 
 <hr>
 
-### Requirements
+<a name="usage"></a>
+### Extension usage
+
+#### Requirements
 - Requires Omniverse Kit >= 108
+
 
 ### Adding This Extension
 To add this extension to your Omniverse app:
@@ -77,8 +80,8 @@ To add this extension to your Omniverse app:
         
 Manual installation:
 
-1.Download Zip  ` git clone https://github.com/9Din/omni_Lighting_Control.git `
-2.Extract and place into a directory of your choice
+1. Download Zip  ` git clone https://github.com/9Din/omni_Lighting_Control.git `
+2. Extract and place into a directory of your choice
 3. `Developer` > `Extensions` or `Window` > `Extensions`
 4. ☰ > Settings
 5. ✚ Add `\omni_Lighting_Control\exts` folder to the Extension Search Paths
