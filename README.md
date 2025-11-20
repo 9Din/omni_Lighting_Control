@@ -1,6 +1,6 @@
 # Omni Vision Tuner 
 
-> This plugin provides Omniverse users with a set of lighting and material management tools, mainly used for lighting management, sun path simulation, and material management in scenes, especially suitable for users who need to finely control lighting and optimize scene resources.**
+> This plugin provides Omniverse users with a set of lighting and material management tools, mainly used for lighting management, sun path simulation, and material management in scenes, especially suitable for users who need to finely control lighting and optimize scene resources.
 
 <br>
 
@@ -9,8 +9,8 @@ Product rendering: material optimization and lighting layout
 Scenario optimization: Clean up unused resources and improve performance
 Lighting Design: Complex Multi level Lighting System Management
 
-```LightManager
-        
+```
+        LightManager   
         # Directory Structure
 
         /World/
@@ -49,6 +49,20 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 
 **Table of Contents:**
 
+- [Extension setup](#setup)
+  - [Troubleshooting](#setup-troubleshooting)
+- [Extension usage](#usage)
+  - [Code autocompletion](#usage-autocompletion)
+  - [Code introspection](#usage-introspection)
+- [Configuring the extension](#config)
+- [Implementation details](#implementation)
+
+<br>
+
+![showcase](exts/omni.LightingControl/data/preview.png)
+
+<hr>
+
 ### Requirements
 - Requires Omniverse Kit >= 108
 
@@ -65,11 +79,11 @@ Manual installation:
 
 1.Download Zip  ` git clone https://github.com/9Din/omni_Lighting_Control.git `
 2.Extract and place into a directory of your choice
-4. `Developer` > `Extensions` or `Window` > `Extensions`
-5. ☰ > Settings
-6. ✚ Add `\omni_Lighting_Control\exts` folder to the Extension Search Paths
-7. The user extension should appear on the left
-8. `Autoload` needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
+3. `Developer` > `Extensions` or `Window` > `Extensions`
+4. ☰ > Settings
+5. ✚ Add `\omni_Lighting_Control\exts` folder to the Extension Search Paths
+6. The user extension should appear on the left
+7. `Autoload` needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
 
 
 
