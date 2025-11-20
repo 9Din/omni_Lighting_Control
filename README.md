@@ -11,7 +11,9 @@
 - Scenario optimization: Clean up unused resources and improve performance
 - Lighting Design: Complex Multi level Lighting System Management
 <br>
+
 ![showcase](readme_media/welcome.png)
+
 <br>
 <hr>
 
