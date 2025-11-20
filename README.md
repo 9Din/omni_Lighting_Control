@@ -48,7 +48,7 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 ## 🎯 User Guide
 ### Preparation
 
-** LightManager **
+**LightManager**
 
 Light organization structure: 
 - Ensure that the lights in the scene are organized according to the following structure
@@ -71,7 +71,7 @@ Light organization structure:
                 
 ```
 
-** SunManager **
+**SunManager**
 
 Sunlight requirement:
 - There must be at least one DistantLight type light in the scene
@@ -127,9 +127,9 @@ Manual installation:
 
 <hr>
 
-## 💡 Usage Tips
+## 🗒️ Usage Tips
 
-### Lighting Management Process 
+### 💡 Lighting Management Process 
 
 1. Search for lighting structure
 - Enter the root path of the light in the path box
@@ -146,7 +146,7 @@ Manual installation:
 - After adjusting to the desired effect, click on "Record Defaults"
 - Afterwards, it can be restored at any time through 'Reset to Defaults'
 
-### Sun Path Usage Process
+### ☀️ Sun Path Usage Process
 
 1. Select sunlight
 - Click the refresh button to retrieve the list of high beams in the scene
@@ -158,18 +158,18 @@ Manual installation:
 - Adjust the intensity, color temperature, and other attributes of sunlight according to demand
 - Use Show/Hide to control the visibility of the sun
 
-### Material cleaning process
+### 🧱 Material cleaning process
 
 1. Scan unused materials
- - Click 'Scan Unused' to start analysis
- - View unused materials displayed in the list
+- Click 'Scan Unused' to start analysis
+- View unused materials displayed in the list
 2. Select the material to be deleted
- - Check the checkbox before selecting the material
- - Be careful to avoid the protected material marked as "(offset)"
+- Check the checkbox before selecting the material
+- Be careful to avoid the protected material marked as "(offset)"
 3. Perform deletion operation
- - Click 'Delete Selected' to delete the selected material
-        - Or click "Delete All" to clean up with just one click
+- Click 'Delete Selected' to delete the selected material
+- Or click "Delete All" to clean up with just one click
 4. Error Recovery
-        - When accidentally deleted, the 'undo last' operation can be used to undo it
+- When accidentally deleted, the 'undo last' operation can be used to undo it
 
 
