@@ -168,8 +168,8 @@ Manual installation:
  - Be careful to avoid the protected material marked as "(offset)"
 3. Perform deletion operation
  - Click 'Delete Selected' to delete the selected material
- - Or click "Delete All" to clean up with just one click
+        - Or click "Delete All" to clean up with just one click
 4. Error Recovery
- - When accidentally deleted, the 'undo last' operation can be used to undo it
+        - When accidentally deleted, the 'undo last' operation can be used to undo it
 
 
