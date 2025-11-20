@@ -131,7 +131,7 @@ Manual installation:
 
 ### Lighting Management Process 
 
-> 1. Search for lighting structure
+1. Search for lighting structure
 - Enter the root path of the light in the path box
 - click Search button
 - The system automatically recognizes rooms and lighting groups
@@ -148,7 +148,7 @@ Manual installation:
 
 ### Sun Path Usage Process
 
-> 1. Select sunlight
+1. Select sunlight
 - Click the refresh button to retrieve the list of high beams in the scene
 - Select the light to be used as the sun from the drop-down menu
 2. Set time and location
@@ -160,16 +160,16 @@ Manual installation:
 
 ### Material cleaning process
 
-> 1. Scan unused materials
-- Click 'Scan Unused' to start analysis
-- View unused materials displayed in the list
+1. Scan unused materials
+> - Click 'Scan Unused' to start analysis
+> - View unused materials displayed in the list
 2. Select the material to be deleted
-- Check the checkbox before selecting the material
-- Be careful to avoid the protected material marked as "(offset)"
+> - Check the checkbox before selecting the material
+> - Be careful to avoid the protected material marked as "(offset)"
 3. Perform deletion operation
-- Click 'Delete Selected' to delete the selected material
-- Or click "Delete All" to clean up with just one click
+> - Click 'Delete Selected' to delete the selected material
+> - Or click "Delete All" to clean up with just one click
 4. Error Recovery
-- When accidentally deleted, the 'undo last' operation can be used to undo it
+> - When accidentally deleted, the 'undo last' operation can be used to undo it
 
 
