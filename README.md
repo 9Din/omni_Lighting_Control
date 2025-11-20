@@ -188,6 +188,7 @@ Manual installation:
 
 <hr>
 <a name="precautions"></a>
+
 ### ⚠️ Precautions
 
 1. Permission requirement: Some operations require write permission for the scene
