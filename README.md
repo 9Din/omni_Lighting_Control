@@ -1,13 +1,16 @@
-# Omni Vision Tuner 
+
+# Overview
+
+## Omni Vision Tuner 
 
 > This plugin provides Omniverse users with a set of lighting and material management tools, mainly used for lighting management, sun path simulation, and material management in scenes, especially suitable for users who need to finely control lighting and optimize scene resources.
 
 <br>
 
- Architectural Visualization: Accurate Sunlight Analysis and Lighting Adjustment
- Product rendering: material optimization and lighting layout
- Scenario optimization: Clean up unused resources and improve performance
- Lighting Design: Complex Multi level Lighting System Management
+- Architectural Visualization: Accurate Sunlight Analysis and Lighting Adjustment
+- Product rendering: material optimization and lighting layout
+- Scenario optimization: Clean up unused resources and improve performance
+- Lighting Design: Complex Multi level Lighting System Management
 
 ```
         LightManager   
@@ -39,6 +42,40 @@ Through an intuitive unified panel, it enables coordinated switching, grouping, 
 - Non-Destructive Real-Time Preview
 All adjustments are instantly reflected in Omniverse's real-time viewport, achieving zero latency between creative decisions and final results.
 
+<br>
+<hr>
+
+## 🎯 User Guide
+### Preparation
+
+** LightManager **
+
+Light organization structure: 
+- Ensure that the lights in the scene are organized according to the following structure
+
+```
+        LightManager   
+        # Directory Structure
+
+        /World/
+            ├── lights/                         # Root Path
+                ├── LivingRoom/                 # Room (Secondary Catalog)
+                │   ├── CeilingLights/          # Lighting Group (Level 3 Catalog)  
+                │   │   │   ├── SpotLight1      # Specific Lighting
+                │   │   │   └── SpotLight2
+                │   └── AccentLights/
+                │           └── CylinderLight
+                └── Bedroom/
+                    └── BedsideLights/
+                            └── DiskLight
+                
+```
+
+** SunManager **
+
+Sunlight requirement:
+- There must be at least one DistantLight type light in the scene
+
 ## Quick Start
 
 **Target applications:** NVIDIA Omniverse App
@@ -65,7 +102,7 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 <a name="usage"></a>
 ### Extension usage
 
-#### Requirements
+#### Dependencies
 - Requires Omniverse Kit >= 108
 
 
@@ -88,5 +125,51 @@ Manual installation:
 6. The user extension should appear on the left
 7. `Autoload` needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
 
+<hr>
+
+## 💡 Usage Tips
+
+### Lighting Management Process
+
+1. Search for lighting structure
+- Enter the root path of the light in the path box
+- click Search button
+- The system automatically recognizes rooms and lighting groups
+2. Select the lights to be controlled
+- Select a room from the "Select Room" dropdown menu
+- Select a lighting group from the "Select Lighting" dropdown menu
+- All lights in this group will be automatically selected
+3. Adjust lighting properties
+- Use sliders or directly input numerical values to adjust parameters
+- The modification takes effect immediately and can be viewed in real-time in the viewport
+4. Save personal presets
+- After adjusting to the desired effect, click on "Record Defaults"
+- Afterwards, it can be restored at any time through 'Reset to Defaults'
+
+### Sun Path Usage Process
+
+1. Select sunlight
+- Click the refresh button to retrieve the list of high beams in the scene
+- Select the light to be used as the sun from the drop-down menu
+2. Set time and location
+- Enter specific date and time, or use quick settings
+- Set the geographic location coordinates of the scene
+3. Fine tune the sun effect
+- Adjust the intensity, color temperature, and other attributes of sunlight according to demand
+- Use Show/Hide to control the visibility of the sun
+
+### Material cleaning process
+
+1. Scan unused materials
+- Click 'Scan Unused' to start analysis
+- View unused materials displayed in the list
+2. Select the material to be deleted
+- Check the checkbox before selecting the material
+- Be careful to avoid the protected material marked as "(offset)"
+3. Perform deletion operation
+- Click 'Delete Selected' to delete the selected material
+- Or click "Delete All" to clean up with just one click
+4. Error Recovery
+- When accidentally deleted, the 'undo last' operation can be used to undo it
 
 
