@@ -15,7 +15,6 @@
 ![showcase](readme_media/welcome.png)
 
 <br>
-<hr>
 
 ## Quick Start
 
@@ -183,6 +182,8 @@ Manual installation:
 - When accidentally deleted, the 'undo last' operation can be used to undo it
 
 <br>
+![showcase](readme_media/record.mp4)
+
 <hr>
 <a name="precautions"></a>
 ### ⚠️ Precautions
