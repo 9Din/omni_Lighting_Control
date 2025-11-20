@@ -182,7 +182,7 @@ Manual installation:
 - When accidentally deleted, the 'undo last' operation can be used to undo it
 
 <br>
-<video src="https://github.com/9Din/omni_Lighting_Control/blob/371a18a4fa0a64c877738e9a7ffe9a9bb1441d25/readme_media/record.mp4" controls></video>
+https://github.com/9Din/omni_Lighting_Control/blob/371a18a4fa0a64c877738e9a7ffe9a9bb1441d25/readme_media/record.mp4
 
 ![showcase](readme_media/record.mp4)
 
