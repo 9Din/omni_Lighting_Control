@@ -129,9 +129,9 @@ Manual installation:
 
 ## 💡 Usage Tips
 
-### Lighting Management Process
+### Lighting Management Process 
 
-1. Search for lighting structure
+> 1. Search for lighting structure
 - Enter the root path of the light in the path box
 - click Search button
 - The system automatically recognizes rooms and lighting groups
@@ -148,7 +148,7 @@ Manual installation:
 
 ### Sun Path Usage Process
 
-1. Select sunlight
+> 1. Select sunlight
 - Click the refresh button to retrieve the list of high beams in the scene
 - Select the light to be used as the sun from the drop-down menu
 2. Set time and location
@@ -160,7 +160,7 @@ Manual installation:
 
 ### Material cleaning process
 
-1. Scan unused materials
+> 1. Scan unused materials
 - Click 'Scan Unused' to start analysis
 - View unused materials displayed in the list
 2. Select the material to be deleted
