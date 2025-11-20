@@ -182,6 +182,10 @@ Manual installation:
 - When accidentally deleted, the 'undo last' operation can be used to undo it
 
 <br>
+<video width="320" height="240" controls>
+  <soure src="readme_media/record.mp4" type="video/mp4">
+</video>
+
 ![showcase](readme_media/record.mp4)
 
 <hr>
