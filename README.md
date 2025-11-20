@@ -55,21 +55,21 @@ All adjustments are instantly reflected in Omniverse's real-time viewport, achie
 ### Adding This Extension
 To add this extension to your Omniverse app:
 
-        1. `Developer` > `Extensions` or `Window` > `Extensions`
-        2. ☰ > Settings
-        3. ✚ Add `git:https://github.com/9Din/omni_Lighting_Control/tree/main/exts` folder to the Extension Search Paths
-        4. The user extension should appear on the left
-        5. `Autoload` needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
+1. `Developer` > `Extensions` or `Window` > `Extensions`
+2. ☰ > Settings
+3. ✚ Add `git:https://github.com/9Din/omni_Lighting_Control/tree/main/exts` folder to the Extension Search Paths
+4. The user extension should appear on the left
+5. `Autoload` needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
         
 Manual installation:
 
-        1.Download Zip  ` git clone https://github.com/9Din/omni_Lighting_Control.git `
-        2.Extract and place into a directory of your choice
-        3.
+1.Download Zip  ` git clone https://github.com/9Din/omni_Lighting_Control.git `
+2.Extract and place into a directory of your choice
+4. `Developer` > `Extensions` or `Window` > `Extensions`
+5. ☰ > Settings
+6. ✚ Add `\omni_Lighting_Control\exts` folder to the Extension Search Paths
+7. The user extension should appear on the left
+8. `Autoload` needs to be checked for the FileFormat plugin to be correctly loaded at USD Runtime.
 
 
-```
-        git clone https://github.com/9Din/omni_Lighting_Control.git
-```
 
-`\omni_Lighting_Control\exts`
